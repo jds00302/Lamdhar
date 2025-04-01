@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>મારું ગામ - ગામ માટે ઉપયોગી વેબસાઈટ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .info {
+            text-align: left;
+            margin-top: 20px;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+        .suggestion-box {
+            margin-top: 20px;
+            padding: 10px;
+            background: #e8f5e9;
+            border-radius: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>મારું ગામ</h1>
+        <p>આ વેબસાઈટ ગામ માટે ઉપયોગી માહિતી અને villagers ના સૂચનો માટે છે.</p>
+        
+        <div class="info">
+            <h2>ગામ વિશે</h2>
+            <p>અમારું ગામ શાંતિપ્રેમી અને એકતા દ્વારા સમૃદ્ધ છે. અહીંના લોકો પરસ્પર સહકાર અને પ્રેમથી જીવે છે.</p>
+            
+            <h2>સેવાઓ</h2>
+            <ul>
+                <li>ગામના ન્યૂઝ અને મહત્વની જાણકારીઓ</li>
+                <li>જાહેર સુવિધાઓ અને સેવાઓ</li>
+                <li>સ્થાનિક ઉજવણીઓ અને તહેવારો</li>
+                <li>ગામ માટેના વિકાસ પ્રોજેક્ટ્સ</li>
+            </ul>
+        </div>
+        
+        <div class="suggestion-box">
+            <h2>તમારા સૂચનો આપો</h2>
+            <form>
+                <input type="text" placeholder="તમારું નામ" required>
+                <textarea placeholder="તમારો સુચન લખો..." rows="4" required></textarea>
+                <button type="submit">મોકલો</button>
+            </form>
+        </div>
+        
+        <footer>
+            &copy; 2025 મારું ગામ. બધાં હકવત સુરક્ષિત.
+        </footer>
+    </div>
+</body>
+</html>
